@@ -18,4 +18,5 @@ char* mystrcpy(char *str1,char *str2){
 }
 str2[i]='\0';
 return str2;
+
 }
