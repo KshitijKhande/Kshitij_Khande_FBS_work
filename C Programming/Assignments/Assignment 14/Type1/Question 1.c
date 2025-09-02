@@ -23,4 +23,5 @@ void main(){
 	scanf("\n%d",&s2.marks);
 	printf("\nThe details of student 2 are:");
 	printf("\n%d\n%s\n%d",s2.rollno,s2.name,s2.marks);
+
 }
