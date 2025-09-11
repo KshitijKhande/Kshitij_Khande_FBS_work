@@ -1,4 +1,4 @@
-//C end module test//
+//C end module test// SET-B
 //Question 1 -Write a program to accept a string and calculate no of vowels,consonents,digits and spaces.//
 
 #include<stdio.h>
@@ -37,4 +37,5 @@ void calculate(char* str){
 
 
 }
+
 
