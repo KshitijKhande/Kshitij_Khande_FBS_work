@@ -33,4 +33,5 @@ void calculate(char* str){
 	printf("\nThe no of spaces in the given string are: %d",spaces);
 	printf("\nThe no of digits in the given string are: %d",digits);
 
+
 }
