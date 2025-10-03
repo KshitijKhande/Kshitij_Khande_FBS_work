@@ -1,0 +1,46 @@
+SQL END MODULE TEST 
+SET -A
+FRN NO: FRN-13J0725/067
+BATCH - 11TH JULY JAVA FULLSTACK
+
+Q1)select name,salary from employees order by salary desc;
+
+Q2)select name,salary from employees 
+order by salary desc limit 5;
+
+Q3)select * from employees order by salary desc limit (3,5);
+
+Q4)select count(*) from employees group by dept_id;
+
+Q5)select avg(salary) from employees group by department having avg(salary)>50000;
+
+Q6)select * from products where product_name like "laptop";
+
+Q7)
+
+Q8)select * from students where student_name like "A";
+
+Q9)select count(*) from orders group by month(order_date) having count(*)>100;
+
+Q10)select sum(amount),avg(amount) from sales group by category having sum(amount)>100000 ;
+
+Q11) a)The total number of employees
+
+Q12) b) 8
+
+Q13) c)having
+
+Q14) b) Returns all rows from the left table and matching rows from the right table
+
+Q15) b)b) HELLO WORLD
+
+Q16) select sum(total_amount) from
+     orders o inner join customers c
+     on o.customer id=c.customer_id
+     group by region having sum(total_amount)>100000;
+
+Q17) select author_id,sum(quantity) "total_books_sold" from
+     books b inner join sales s
+     on b.book_id=s.book_id
+     group by author_id
+     having sum(quantity)>100
